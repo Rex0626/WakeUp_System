@@ -73,3 +73,31 @@ WakeUp_System/
 ├── config.py                 # [設定檔] 靈敏度閥值與參數設定
 ├── main.py                   # [主程式] 系統啟動入口
 └── requirements.txt          # [清單] 相依套件列表
+```
+
+## 🚀 快速開始 (Quick Start)
+
+1. 複製專案
+```
+Bash
+git clone [https://github.com/YourUsername/WakeUp_System.git](https://github.com/YourUsername/WakeUp_System.git)
+cd WakeUp_System
+```
+2. 安裝相依套件
+建議使用虛擬環境 (Virtualenv/Conda)：
+```
+Bash
+pip install -r requirements.txt
+(注意：Jetson Nano 上的 PyTorch 安裝建議參考 NVIDIA 官方論壇指引)
+```
+
+3. 執行系統
+確保 Webcam 已連接，然後執行：
+```
+Bash
+
+python main.py
+```
+
+## 📝 授權與致謝 (License)
+本專案採用 MIT License。
