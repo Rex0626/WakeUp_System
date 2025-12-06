@@ -79,7 +79,7 @@ WakeUp_System/
 
 1. 複製專案
 ```Bash
-git clone [https://github.com/YourUsername/WakeUp_System.git](https://github.com/YourUsername/WakeUp_System.git)
+git clone https://github.com/Rex0626/WakeUp_System.git
 cd WakeUp_System
 ```
 2. 安裝相依套件
