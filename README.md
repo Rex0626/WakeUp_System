@@ -78,24 +78,20 @@ WakeUp_System/
 ## 🚀 快速開始 (Quick Start)
 
 1. 複製專案
-```
-Bash
+```Bash
 git clone [https://github.com/YourUsername/WakeUp_System.git](https://github.com/YourUsername/WakeUp_System.git)
 cd WakeUp_System
 ```
 2. 安裝相依套件
 建議使用虛擬環境 (Virtualenv/Conda)：
-```
-Bash
-pip install -r requirements.txt
 (注意：Jetson Nano 上的 PyTorch 安裝建議參考 NVIDIA 官方論壇指引)
+```Bash
+pip install -r requirements.txt
 ```
 
 3. 執行系統
 確保 Webcam 已連接，然後執行：
-```
-Bash
-
+```Bash
 python main.py
 ```
 
