@@ -1,0 +1,16 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# environments
+venv/
+wakeup_env/
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Large model files (如果你不希望模型檔被上傳，可以加這行，但在這專案它不大，可以不加)
+# *.pt
